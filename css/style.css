@@ -1,0 +1,157 @@
+.jumbotron {
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/showcase.jpg);
+}
+
+.subnav-content {
+  padding-top: 15px;
+  display: none;
+  position: absolute;
+  left: 0;
+  background-image: linear-gradient(#fff, #ddd);
+  width: 100%;
+  z-index: 1;
+}
+.subnav a {
+  text-decoration: none;
+}
+
+.subnav-content a {
+  color: transparent;
+  text-decoration: none;
+}
+
+.subnav-content img {
+  width: 100px;
+}
+
+.subnav-content a:hover {
+  color: black;
+  opacity: 0.3;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+.container p a {
+  text-decoration: none;
+}
+
+.social {
+  padding: 5px;
+  position: center;
+  width: 50px;
+  height: auto;
+}
+
+.containerCss {
+  position: relative;
+  width: 100%;
+}
+
+.containerCss a {
+  text-decoration: none;
+  color: black;
+}
+
+.imageCss {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middleCss {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.containerCss:hover .imageCss {
+  opacity: 0.3;
+}
+
+.containerCss:hover .middleCss {
+  opacity: 1;
+}
+
+.box {
+  display: none;
+  width: 100%;
+}
+
+a:hover + .box,
+.box:hover {
+  display: block;
+  position: relative;
+  z-index: 100;
+}
+
+.card {
+  margin-right: 40px;
+}
+.form-control {
+  resize: none;
+}
+
+.contact {
+  padding-top: 100px;
+}
+
+.messageBackground {
+  background: whitesmoke;
+}
+
+#signup {
+  padding-top: 100px;
+  width: 50%;
+}
+
+#desktopapp {
+  padding-top: 250px;
+}
+
+#microcon {
+  padding-top: 250px;
+}
+
+#service-row {
+  padding-top: 200px;
+}
+
+#service-row img {
+  width: 500px;
+}
+
+#about-row {
+  padding-top: 100px;
+}
+
+#language-row img {
+  width: 80px;
+}
+
+#logo {
+  height: 40px;
+}
+
+#bottom-row {
+  padding-top: 200px;
+}
+
+#main-footer {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
